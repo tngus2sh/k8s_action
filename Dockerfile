@@ -20,7 +20,7 @@ RUN npm install -g npm-check-updates \
 	npm install http \
 	npm install fs
 
-# RUN npm ci --only=production
+RUN npm ci --only=production
 
 COPY . /app
 
