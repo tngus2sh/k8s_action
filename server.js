@@ -69,7 +69,7 @@ app.post('/add', function(req, res){
 // ===========================================================================
 app.get('/list', function(req, res){
     // .find().toArray() : 모든 데이터 찾아오기
-    console.log('업데이트 전');
+    res.send('업데이트 전');
 //     db.collection('post').find().toArray(function(err, result){
 //         console.log(result);
 //         // ejs파일들은 view폴더에 넣어야함
